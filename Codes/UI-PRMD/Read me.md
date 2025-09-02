@@ -1,1 +1,2 @@
-
+The raw data and the pre-processing codes are taken from the original repository. Please refer to "Vakanski A, Jun HP, Paul D, Baker R (2018) A data set of human body movements for physical rehabilitation exercises. Data 3(1):2" for the data and the article "Liao Y, Vakanski A, Xian M (2020) A deep learning framework for assessing physical rehabilitation
+exercises. IEEE Trans Neural Syst Rehabil Eng 28(2):468–477" for pre-processing codes and pre-processing steps. 
