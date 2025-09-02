@@ -1,1 +1,1 @@
-
+Please refer to "Capecci M, Ceravolo MG, Ferracuti F, Iarlori S, Monteriu A, Romeo L, Verdini F (2019) The Kimore dataset: kinematic assessment of movement and clinical scores for remote monitoring of physical rehabilitation. IEEE Trans Neural Syst Rehabil Eng 27(7):1436–1448" for the data.
