@@ -39,9 +39,9 @@ from sklearn.mixture import GaussianMixture
 
 framerate = 10
 
-path = 'C:/Aman/Research papers/Quality assessment paper/Dataset/UI-PRMD/Data/Segmented Movements/Vicon/Positions'
+path = '_path_to_Vicon_positional_data_'
 
-folder_path = 'C:/Aman/Research papers/Quality assessment paper/Trained GMM models (UI-PRMD)/Vicon_UI_PRMD'  # Path where the trained model will be saved
+folder_path = '_path_to_trained_model_'  # Path where the trained model will be saved
 model_filename = folder_path + '/m10.pkl' 
 
 allFiles = glob.glob(path + "/*.txt") 
@@ -225,3 +225,4 @@ plt.xlabel('Dimension 1')
 plt.ylabel('Dimension 2')
 plt.title('Gaussian Mixture Model Clusters')
 plt.show()
+
