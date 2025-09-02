@@ -39,7 +39,7 @@ from sklearn.mixture import GaussianMixture
 
 
 
-path = 'C:/Aman/Research papers/Quality assessment paper/Dataset/UI-PRMD/Data/Segmented Movements/Vicon/Positions'
+path = '_path_to_Vicon_positional_data_'
 current_exercise = 'm10'
 
 allFiles = glob.glob(path + "/*.txt") 
@@ -96,7 +96,7 @@ for file in allFiles:
         myFile = pd.read_csv(file);
         file = pd.DataFrame(myFile)
         
-        path = 'C:/Aman/Research papers/Quality assessment paper/Trained GMM models (UI-PRMD)/Vicon_UI_PRMD/' + current_exercise + '.pkl'
+        path = '_path_to_trained_GMM_models_/' + current_exercise + '.pkl'
         # path = model_filename
         # Load the GMM model from the file
         gmm = joblib.load(path)
@@ -156,15 +156,15 @@ for file in allFiles:
         
         
         print("The stored file is ", current_exercise + '/' + currFileName)
-        # os.makedirs(os.path.dirname('C:/Aman/Research papers/My mediapipe research paper/Quality assessment paper/Dataset/Data for GMM training/Data with score values/'+ currentActivity + '/'))
+        # os.makedirs(os.path.dirname('_path_to_store_score_values_/'+ currentActivity + '/'))
          
-        
-        # data.to_csv('C:/Aman/Research papers/My mediapipe research paper/Quality assessment paper/Dataset/Data for GMM training/Data with score values for repetitions with timestamp/'+ currentActivity + '/' + currFileName + ".csv", index = False)
-        data.to_csv("C:/Aman/Research papers/Quality assessment paper/GMM training data UI-PRMD/Vicon/"+ current_exercise + '/' + currFileName + ".csv", index = False)
+      
+        data.to_csv("_path_to_save_UI-PRMD_VICON_data_for_training_"+ current_exercise + '/' + currFileName + ".csv", index = False)
     
     
         # except:
         #     print("Error in the file ", currFileName)
         
     else:
+
         pass
