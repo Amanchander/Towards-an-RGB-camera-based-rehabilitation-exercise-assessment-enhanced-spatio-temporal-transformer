@@ -1,1 +1,1 @@
-
+This contains the results of our model on KIMORE dataset for all 5 exercises. We have saved the results for 100 epochs with loss values included for every interation. The training loss and validation loss graph is also included.
