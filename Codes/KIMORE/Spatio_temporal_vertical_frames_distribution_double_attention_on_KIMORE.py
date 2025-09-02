@@ -61,10 +61,10 @@ torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 
 
-current_exercise = '3' # Exercise number
+current_exercise = '1' # Exercise number
 
 
-path = "C:/Aman/Research papers/Quality assessment paper/All research files for KIMORE/Training data for KIMORE using STGCN's code/PKL files" # Path to the PKL files
+path = "_path_to_PKL_files_" # Path to the PKL files
 
 
 X_train_path = path + '/Ex_' + current_exercise + '/train_data.pkl' 
@@ -616,3 +616,4 @@ evaluateMyModel(best_model, X_test, y_test)
 
 
 print(f"The hyperparameters are : model_dim is = {model_dim} , num_heads = {num_heads} , dim_feedforward = {dim_feedforward} , num_layers = {num_layers} , dropout = {dropout} , stride = {stride} , frame_size = {frame_size} , dense_layer_neurons = {dense_layer_neurons} , epochs = {epochs}, learning_rate = {learning_rate}")
+
